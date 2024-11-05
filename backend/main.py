@@ -25,4 +25,4 @@ async def voice_recognition():
 
 @app.get("/")
 async def root():
-    return {"message": "TEST"}
+    return {"message": "connected fast api(backend)"}

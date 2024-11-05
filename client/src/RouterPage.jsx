@@ -1,11 +1,11 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import App from './App';
+import Voice from './Voice';
 
 const RouterPage = () => {
   return (
     <Routes>
-      <Route path='/' element={<App />} />
+      <Route path='/voice' element={<Voice />}/>
     </Routes>
   );
 }
